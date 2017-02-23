@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProfileClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Comment>IMX408 1280x720 60Hz 10bits</Comment>
+  <ImageProperty>
+    <Width>1280</Width>
+    <Height>720</Height>
+    <Frequency>60</Frequency>
+    <BayerBits>10</BayerBits>
+  </ImageProperty>
+  <CCIAddress>26</CCIAddress>
+  <NumLanes>2</NumLanes>
+  <SensorMatching>
+    <RegisterSetting>
+      <Address>22</Address>
+      <Data>2</Data>
+      <Comment>IMX408 High</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>23</Address>
+      <Data>104</Data>
+      <Comment>IMX408 Low</Comment>
+    </RegisterSetting>
+  </SensorMatching>
+  <RegisterSettings>
+    <RegisterSetting>
+      <Address>274</Address>
+      <Data>10</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>275</Address>
+      <Data>10</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>276</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>769</Address>
+      <Data>5</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>771</Address>
+      <Data>2</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>773</Address>
+      <Data>4</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>774</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>775</Address>
+      <Data>85</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>777</Address>
+      <Data>10</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>779</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>781</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>782</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>783</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>784</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>2080</Address>
+      <Data>3</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>2081</Address>
+      <Data>252</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>2082</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>2083</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>834</Address>
+      <Data>8</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>835</Address>
+      <Data>152</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>832</Address>
+      <Data>3</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>833</Address>
+      <Data>4</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>836</Address>
+      <Data>2</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>837</Address>
+      <Data>128</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>838</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>839</Address>
+      <Data>104</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>840</Address>
+      <Data>12</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>841</Address>
+      <Data>159</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>842</Address>
+      <Data>7</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>843</Address>
+      <Data>39</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>897</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>899</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>901</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>903</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>2304</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>2305</Address>
+      <Data>34</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1025</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1028</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1029</Address>
+      <Data>16</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1032</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1033</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1034</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1035</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1036</Address>
+      <Data>5</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1037</Address>
+      <Data>16</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1038</Address>
+      <Data>2</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1039</Address>
+      <Data>224</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12301</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>844</Address>
+      <Data>5</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>845</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>846</Address>
+      <Data>2</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>847</Address>
+      <Data>208</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>514</Address>
+      <Data>2</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>515</Address>
+      <Data>250</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>516</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>517</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>526</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>527</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>528</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>529</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>530</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>531</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>532</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>533</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>25960</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>27409</Address>
+      <Data>143</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>27410</Address>
+      <Data>171</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>27411</Address>
+      <Data>170</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>544</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12339</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>20069</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>2816</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>19760</Address>
+      <Data>2</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>310</Address>
+      <Data>24</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>311</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>20001</Address>
+      <Data>4</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>27393</Address>
+      <Data>176</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>27394</Address>
+      <Data>237</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>27397</Address>
+      <Data>102</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>27398</Address>
+      <Data>251</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>27416</Address>
+      <Data>63</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>27417</Address>
+      <Data>255</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>25921</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+  </RegisterSettings>
+  <StartStreamingSettings>
+    <RegisterSetting>
+      <Address>256</Address>
+      <Data>1</Data>
+    </RegisterSetting>
+  </StartStreamingSettings>
+  <StopStreamingSettings>
+    <RegisterSetting>
+      <Address>256</Address>
+      <Data>0</Data>
+    </RegisterSetting>
+  </StopStreamingSettings>
+  <CheckSum>88aab8c1c15283584e8f2521eafd7b7e</CheckSum>
+</ProfileClass>

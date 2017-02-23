@@ -1,0 +1,10 @@
+sensor_type,IMX378
+register name,default,min,max,register address
+analog_gain,0,0,978,0x0204,0x0205
+digital_gain,256,256,511,0x020F,0x0211,0x0213,0x0215
+exposure_time,2372,1,65535,0x0202,0x0203
+image_orientation,0,0,3,0x0101
+register to sec,frame_length_line,offset
+exposure_time_ms,2372,4
+register name,address(w),address(h),value1(none),value2(x2),value3(x4),value4(analog)
+binning_mode,0x0900,0x0900,1,2,4

@@ -1,0 +1,5 @@
+sensor_type,IMX290,,,,
+register name,default,min,max,register address,
+analog_gain,0,0,240,0x3014,
+exposure_time,1,1,65535,0x3020,0x3021
+image_orientation,0,0,3,0x3007,
