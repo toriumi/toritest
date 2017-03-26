@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProfileClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Comment>IU233 1280x720 60Hz 10bits Hexavision Mono</Comment>
+  <CSI2Adapter>HEXAVISION_MONO</CSI2Adapter>
+  <ImageProperty>
+    <Width>1280</Width>
+    <Height>720</Height>
+    <Frequency>60</Frequency>
+    <BayerBits>10</BayerBits>
+  </ImageProperty>
+  <CCIAddress>16</CCIAddress>
+  <NumLanes>1</NumLanes>
+  <SensorMatching>
+    <RegisterSetting>
+      <Address>0</Address>
+      <Data>2</Data>
+      <Comment>IU233 Low</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>1</Address>
+      <Data>51</Data>
+      <Comment>IU233 High</Comment>
+    </RegisterSetting>
+  </SensorMatching>
+  <RegisterSettings>
+    <RegisterSetting>
+      <Address>256</Address>
+      <Data>0</Data>
+      <Comment>// Stop streaming</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>257</Address>
+      <Data>0</Data>
+      <Comment>// Initial settings for sensor</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12348</Address>
+      <Data>84</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12350</Address>
+      <Data>56</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12509</Address>
+      <Data>145</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12517</Address>
+      <Data>9</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>274</Address>
+      <Data>10</Data>
+      <Comment>// RAW10</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>275</Address>
+      <Data>10</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>832</Address>
+      <Data>3</Data>
+      <Comment>//Mode Setting</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>833</Address>
+      <Data>132</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>834</Address>
+      <Data>5</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>835</Address>
+      <Data>232</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>897</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>899</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>901</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>903</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12458</Address>
+      <Data>2</Data>
+      <Comment>//Binning mode Setting</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12428</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12429</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12430</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12433</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12516</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12413</Address>
+      <Data>0</Data>
+      <Comment>//FD4 Setting</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12414</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12513</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12536</Address>
+      <Data>0</Data>
+      <Comment>//PS Mode Setting</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12537</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12538</Address>
+      <Data>192</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12539</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12540</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>836</Address>
+      <Data>0</Data>
+      <Comment>// Horizontal Cropping Start Address</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>837</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>838</Address>
+      <Data>4</Data>
+      <Comment>// Vertical Cropping Start Address</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>839</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>840</Address>
+      <Data>4</Data>
+      <Comment>// Horizontal Cropping End Address</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>841</Address>
+      <Data>255</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>842</Address>
+      <Data>6</Data>
+      <Comment>// Vertical Cropping End Address</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>843</Address>
+      <Data>207</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>844</Address>
+      <Data>5</Data>
+      <Comment>// Horizontal Cropping Size</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>845</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>846</Address>
+      <Data>2</Data>
+      <Comment>// Vertical Cropping Size</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>847</Address>
+      <Data>208</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>773</Address>
+      <Data>2</Data>
+      <Comment>//Clock Setting</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>775</Address>
+      <Data>90</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>12364</Address>
+      <Data>2</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>13336</Address>
+      <Data>97</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>514</Address>
+      <Data>3</Data>
+      <Comment>  //Integration Time Setting</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>515</Address>
+      <Data>127</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>517</Address>
+      <Data>0</Data>
+      <Comment>  //Gain Setting</Comment>
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>526</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>527</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>528</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>529</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>530</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>531</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>532</Address>
+      <Data>1</Data>
+      <Comment />
+    </RegisterSetting>
+    <RegisterSetting>
+      <Address>533</Address>
+      <Data>0</Data>
+      <Comment />
+    </RegisterSetting>
+  </RegisterSettings>
+  <StartStreamingSettings>
+    <RegisterSetting>
+      <Address>256</Address>
+      <Data>1</Data>
+    </RegisterSetting>
+  </StartStreamingSettings>
+  <StopStreamingSettings>
+    <RegisterSetting>
+      <Address>256</Address>
+      <Data>0</Data>
+    </RegisterSetting>
+  </StopStreamingSettings>
+  <CheckSum>389c65f30f0777275941799693a16f52</CheckSum>
+</ProfileClass>
